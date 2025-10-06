@@ -1,0 +1,24 @@
+{
+  "name": "SQL Server 2019",
+  "slug": "sqlserver2019",
+  "categories": ["Database"],
+  "date_created": "2024-01-20",
+  "description": "Microsoft SQL Server 2019 database server provides a comprehensive data platform with security, performance, and analytics.",
+  "documentation": "https://docs.microsoft.com/en-us/sql/sql-server/",
+  "logo": "https://logoeps.com/wp-content/uploads/2013/03/microsoft-sql-server-vector-logo.png",
+  "screenshot": "https://www.betaarchive.com/imageupload/2019-09/1569406142.or.88442.png",
+  "youtube": "BIvF8n5bBlY",
+  "interface": {
+    "opt": "1433",
+    "name": "default",
+    "port": 1433
+  },
+  "requirements": {
+    "root": true,
+    "privileged": true
+  },
+  "default_credentials": {
+    "username": "sa",
+    "password": "P@ssw0rd"
+  }
+}
