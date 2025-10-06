@@ -40,9 +40,9 @@ export const metadata: Metadata = {
   ],
   creator: "Bram Suurd",
   publisher: "Community Scripts",
-  metadataBase: new URL(`https://community-scripts.github.io/${basePath}/`),
+  metadataBase: new URL(`https://hendrikhaase.github.io/${basePath}/`),
   alternates: {
-    canonical: `https://community-scripts.github.io/${basePath}/`,
+    canonical: `https://hendrikhaase.github.io/${basePath}/`,
   },
   viewport: {
     width: "device-width",
