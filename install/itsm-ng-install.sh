@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: Florianb63
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://itsm-ng.com/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -66,3 +66,4 @@ rm -rf /usr/share/itsm-ng/install
 $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 msg_ok "Cleaned"
+

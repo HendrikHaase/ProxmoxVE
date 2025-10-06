@@ -31,3 +31,4 @@ body:
       placeholder: "Describe the benefit of this feature"
     validations:
       required: true
+

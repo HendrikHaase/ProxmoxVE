@@ -2,7 +2,7 @@
 
 # Copyright (c) 2025 Community Scripts ORG
 # Author: vhsdream
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://github.com/kyantech/Palmr
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -92,3 +92,4 @@ msg_info "Cleaning up"
 $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 msg_ok "Cleaned"
+

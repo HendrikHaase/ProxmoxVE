@@ -9,7 +9,7 @@ export const basePath = process.env.BASE_PATH || "";
 
 export const navbarLinks = [
   {
-    href: `https://github.com/community-scripts/${basePath}`,
+    href: `https://github.com/HendrikHaase/${basePath}`,
     event: "GitHub",
     icon: <FaGithub className="h-4 w-4" />,
     text: "GitHub",
@@ -21,14 +21,14 @@ export const navbarLinks = [
     text: "Discord",
   },
   {
-    href: `https://github.com/community-scripts/${basePath}/blob/main/CHANGELOG.md`,
+    href: `https://github.com/HendrikHaase/${basePath}/blob/main/CHANGELOG.md`,
     event: "Changelog",
     icon: <Scroll className="h-4 w-4" />,
     text: "Changelog",
     mobileHidden: true,
   },
   {
-    href: `https://github.com/community-scripts/${basePath}/discussions`,
+    href: `https://github.com/HendrikHaase/${basePath}/discussions`,
     event: "Discussions",
     icon: <MessagesSquare className="h-4 w-4" />,
     text: "Discussions",
@@ -70,3 +70,4 @@ export const OperatingSystems: OperatingSystem[] = [
     ],
   },
 ];
+

@@ -48,3 +48,4 @@ generate_headers "./tools" "headers" "**"
 generate_headers "./vm" "headers" "*"
 
 echo "Completed processing all sections."
+

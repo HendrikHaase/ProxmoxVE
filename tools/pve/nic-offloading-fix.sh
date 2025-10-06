@@ -241,3 +241,4 @@ for iface in "${INTERFACE_ARRAY[@]}"; do
 done
 
 exit 0
+

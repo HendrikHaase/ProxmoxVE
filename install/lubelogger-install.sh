@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: kristocopani
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://lubelogger.com/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -53,3 +53,4 @@ rm -rf /opt/lubelogger/appsettings_bak.json
 $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 msg_ok "Cleaned"
+

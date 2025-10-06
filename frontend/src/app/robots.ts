@@ -13,3 +13,4 @@ export default function robots(): MetadataRoute.Robots {
     sitemap: `https://community-scripts.github.io/${basePath}/sitemap.xml`,
   };
 }
+

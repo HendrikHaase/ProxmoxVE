@@ -5,3 +5,4 @@ export function getDisplayValueFromRAM(ram: number): string {
 export function cleanSlug(slug: string): string {
   return slug.replace(/[^a-z0-9]/gi, "").toLowerCase();
 }
+

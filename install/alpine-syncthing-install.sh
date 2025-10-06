@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: MickLesk (CanbiZ)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://syncthing.net/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -31,3 +31,4 @@ msg_ok "Started Syncthing"
 
 motd_ssh
 customize
+

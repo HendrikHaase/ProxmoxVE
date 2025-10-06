@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: andrej-kocijan (Andrej Kocijan)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://github.com/redlib-org/redlib
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -96,3 +96,4 @@ customize
 msg_info "Cleaning up"
 $STD apk cache clean
 msg_ok "Cleaned"
+

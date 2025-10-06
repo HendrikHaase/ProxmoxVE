@@ -12,3 +12,4 @@ export default function Description({ item }: { item: Script }) {
     </div>
   );
 }
+

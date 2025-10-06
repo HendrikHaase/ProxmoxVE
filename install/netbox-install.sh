@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: bvdberg01
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://netboxlabs.com/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -120,3 +120,4 @@ rm "/opt/v${RELEASE}.zip"
 $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 msg_ok "Cleaned"
+

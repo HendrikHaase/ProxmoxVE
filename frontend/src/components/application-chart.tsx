@@ -197,3 +197,4 @@ export default function ApplicationChart({ data }: ApplicationChartProps) {
     </div>
   );
 }
+

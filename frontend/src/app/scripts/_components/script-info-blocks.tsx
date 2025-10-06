@@ -199,3 +199,4 @@ export function MostViewedScripts({ items }: { items: Category[] }) {
     </div>
   );
 }
+

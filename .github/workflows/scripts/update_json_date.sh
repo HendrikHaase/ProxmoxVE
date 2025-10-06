@@ -21,3 +21,4 @@ for json_file in $json_dir; do
   fi
 done
 git push origin HEAD
+

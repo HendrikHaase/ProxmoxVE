@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: CrazyWolf13
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://github.com/influxdata/telegraf
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -37,3 +37,4 @@ $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 rm /influxdata-archive.key
 msg_ok "Cleaned"
+

@@ -2,7 +2,7 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 
 function header_info {
   clear
@@ -253,3 +253,4 @@ info "login: root"
 info "password: $PASS"
 info "(credentials also stored in the root user's root directory in the 'turnkey-${turnkey}.creds' file.)"
 echo
+

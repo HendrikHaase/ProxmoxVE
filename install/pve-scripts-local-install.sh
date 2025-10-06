@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: michelroegl-brunner
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
 color
@@ -21,7 +21,7 @@ $STD apt install -y \
 msg_ok "Dependencies installed."
 
 NODE_VERSION=22 setup_nodejs
-fetch_and_deploy_gh_release "ProxmoxVE-Local" "community-scripts/ProxmoxVE-Local"
+fetch_and_deploy_gh_release "ProxmoxVE-Local" "HendrikHaase/ProxmoxVE-Local"
 
 msg_info "Installing PVE Scripts local"
 cd /opt/ProxmoxVE-Local
@@ -61,3 +61,4 @@ $STD apt -y autoremove
 $STD apt -y autoclean
 $STD apt -y clean
 msg_ok "Cleaned"
+

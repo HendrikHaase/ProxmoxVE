@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: vhsdream
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://immich.app
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -453,3 +453,4 @@ $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 $STD apt clean -y
 msg_ok "Cleaned"
+

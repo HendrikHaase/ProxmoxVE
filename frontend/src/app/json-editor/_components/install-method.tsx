@@ -231,3 +231,4 @@ function InstallMethod({ script, setScript, setIsValid, setZodErrors }: InstallM
 }
 
 export default memo(InstallMethod);
+

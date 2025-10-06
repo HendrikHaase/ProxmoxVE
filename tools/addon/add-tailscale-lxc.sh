@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 
 set -Eeuo pipefail
 trap 'echo -e "\n[ERROR] in line $LINENO: exit code $?"' ERR
@@ -110,3 +110,4 @@ pct set "$CTID" -tags "$TAGS"
 
 msg_ok "Tailscale installed on CT $CTID"
 msg_info "Reboot the container, then run 'tailscale up' inside the container to activate."
+

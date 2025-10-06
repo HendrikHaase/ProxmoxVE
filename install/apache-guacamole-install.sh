@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Copyright (c) 2021-2025 community-scripts ORG
 # Author: Michel Roegl-Brunner (michelroegl-brunner) | MickLesk (CanbiZ)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://guacamole.apache.org/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -153,3 +153,4 @@ rm -rf ~/guacamole-auth-jdbc-$RELEASE_SERVER{,.tar.gz}
 $STD apt -y autoremove
 $STD apt -y autoclean
 msg_ok "Cleaned"
+

@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteckster | MickLesk (CanbiZ)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 
 header_info() {
   clear
@@ -663,3 +663,4 @@ After the upgrade or post-install routines, always clear your browser cache or p
 }
 
 main
+

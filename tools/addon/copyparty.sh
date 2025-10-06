@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: MickLesk
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://github.com/9001/copyparty
 
 function header_info() {
@@ -246,3 +246,4 @@ echo -e "${INFO} Storage directory: ${YW}$USER_DATA_PATH${CL}"
 if [[ -n "$AUTH_LINE" ]]; then
   echo -e "${INFO} Login: ${GN}${ADMIN_USER}${CL} / ${GN}${ADMIN_PASS}${CL}"
 fi
+

@@ -174,3 +174,4 @@ else
   msg_error "CPU vendor ${cpu} is not supported"
   exit
 fi
+

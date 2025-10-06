@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   ],
   authors: [
     { name: "Bram Suurd", url: "https://github.com/BramSuurdje" },
-    { name: "Community Scripts", url: "https://github.com/Community-Scripts" },
+    { name: "Community Scripts", url: "https://github.com/HendrikHaase" },
   ],
   creator: "Bram Suurd",
   publisher: "Community Scripts",
@@ -125,3 +125,4 @@ export default function RootLayout({
     </html>
   );
 }
+

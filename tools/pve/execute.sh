@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: jeroenzwart
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 
 function header_info() {
   clear
@@ -82,3 +82,4 @@ done
 wait
 
 echo -e "${GN} Finished, execute command inside selected containers. ${CL} \n"
+

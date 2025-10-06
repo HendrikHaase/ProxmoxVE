@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: bvdberg01 | CanbiZ
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://github.com/karlomikus/bar-assistant
 # Source: https://github.com/karlomikus/vue-salt-rim
 # Source: https://www.meilisearch.com/
@@ -195,3 +195,4 @@ msg_info "Cleaning up"
 $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 msg_ok "Cleaned"
+

@@ -1105,3 +1105,4 @@ fi
 # Clean up any running spinner and exit
 stop_spinner
 exit 0
+

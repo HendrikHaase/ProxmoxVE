@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/build.func)
+source <(curl -fsSL https://raw.githubusercontent.com/HendrikHaase/ProxmoxVE/main/misc/build.func)
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://nextcloud.com/
 
 APP="Alpine-Nextcloud"
@@ -59,3 +59,4 @@ description
 msg_ok "Completed Successfully!\n"
 echo -e "${APP} should be reachable by going to the following URL.
          ${BL}https://${IP}${CL} \n"
+

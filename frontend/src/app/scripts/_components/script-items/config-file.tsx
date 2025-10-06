@@ -7,3 +7,4 @@ export default function ConfigFile({ configPath }: { configPath: string }) {
     </div>
   );
 }
+

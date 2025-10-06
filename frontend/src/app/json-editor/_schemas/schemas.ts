@@ -44,3 +44,4 @@ export const ScriptSchema = z.object({
 });
 
 export type Script = z.infer<typeof ScriptSchema>;
+

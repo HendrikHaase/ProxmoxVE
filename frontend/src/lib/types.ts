@@ -65,3 +65,4 @@ export type AppVersion = {
   version: string;
   date: Date;
 };
+

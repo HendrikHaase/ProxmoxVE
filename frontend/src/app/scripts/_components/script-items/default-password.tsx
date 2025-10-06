@@ -49,3 +49,4 @@ export default function DefaultPassword({ item }: { item: Script }) {
     </div>
   );
 }
+

@@ -36,3 +36,4 @@ frontend/public/json/*.json linguist-generated=false
 # ---------------------------------------
 # Standard text handling
 * text=auto eol=lf
+

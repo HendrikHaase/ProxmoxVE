@@ -8,7 +8,7 @@ on:
 
 jobs:
   autolabeler:
-    if: github.repository == 'community-scripts/ProxmoxVE'
+    if: github.repository == 'HendrikHaase/ProxmoxVE'
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
@@ -112,3 +112,4 @@ jobs:
                 labels: Array.from(labelsToAdd),
               });
             }
+

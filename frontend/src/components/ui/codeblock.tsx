@@ -73,7 +73,7 @@ function handleCopy(type: string, value: string) {
             <div>
               <Button className="text-white">
                 <Link
-                  href={`https://github.com/community-scripts/${basePath}`}
+                  href={`https://github.com/HendrikHaase/${basePath}`}
                   data-umami-event="Star on Github"
                   target="_blank"
                 >
@@ -147,3 +147,4 @@ const CodeBlock = React.forwardRef<HTMLDivElement, CodeBlockProps>(
 CodeBlock.displayName = "CodeBlock";
 
 export { buttonVariants, CodeBlock };
+

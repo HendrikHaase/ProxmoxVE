@@ -41,3 +41,4 @@ export function ResourceDisplay({ title, cpu, ram, hdd }: ResourceDisplayProps) 
     </div>
   );
 }
+

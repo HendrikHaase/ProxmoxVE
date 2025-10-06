@@ -183,3 +183,4 @@ export function ScriptItem({ item, setSelectedScript }: ScriptItemProps) {
     </div>
   );
 }
+

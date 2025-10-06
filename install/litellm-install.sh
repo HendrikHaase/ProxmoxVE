@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: stout01
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://github.com/BerriAI/litellm
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -85,3 +85,4 @@ $STD apt -y autoremove
 $STD apt -y autoclean
 $STD apt -y clean
 msg_ok "Cleaned"
+

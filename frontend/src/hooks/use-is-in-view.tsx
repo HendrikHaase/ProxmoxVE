@@ -25,3 +25,4 @@ function useIsInView<T extends HTMLElement = HTMLElement>(
 }
 
 export { useIsInView, type UseIsInViewOptions };
+

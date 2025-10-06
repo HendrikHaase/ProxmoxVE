@@ -3,7 +3,7 @@
 # Copyright (c) 2021-2025 tteck
 # Author: tteck (tteckster)
 # License: MIT
-# https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 
 function header_info {
   clear
@@ -168,3 +168,4 @@ case $CHOICE in
   exit 0
   ;;
 esac
+

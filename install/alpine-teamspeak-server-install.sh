@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: tremor021 (Slaviša Arežina)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://teamspeak.com/en/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -66,3 +66,4 @@ msg_info "Cleaning up"
 rm -r ts3server.tar.bz* LICENSE* CHANGELOG doc serverquerydocs tsdns redist
 $STD apk cache clean
 msg_ok "Cleaned"
+

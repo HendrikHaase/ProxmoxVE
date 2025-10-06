@@ -38,3 +38,4 @@ export default function DefaultSettings({ item }: { item: Script }) {
     </div>
   );
 }
+

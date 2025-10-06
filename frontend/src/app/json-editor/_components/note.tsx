@@ -157,3 +157,4 @@ function Note({
 NoteItem.displayName = "NoteItem";
 
 export default memo(Note);
+

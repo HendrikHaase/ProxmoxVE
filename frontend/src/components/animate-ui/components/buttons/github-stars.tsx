@@ -107,3 +107,4 @@ function GitHubStarsButton({
 }
 
 export { GitHubStarsButton, type GitHubStarsButtonProps };
+

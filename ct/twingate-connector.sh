@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/build.func)
+source <(curl -fsSL https://raw.githubusercontent.com/HendrikHaase/ProxmoxVE/main/misc/build.func)
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: twingate-andrewb
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://www.twingate.com/docs/
 
 APP="Twingate-Connector"
@@ -42,3 +42,4 @@ build_container
 description
 
 msg_ok "All Finished! If you need to update your access or refresh tokens, they can be found in /etc/twingate/connector.conf"
+

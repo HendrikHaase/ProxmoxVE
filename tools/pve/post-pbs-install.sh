@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: tteck (tteckster) | MickLesk (CanbiZ) | thost96
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 
 header_info() {
   clear
@@ -314,3 +314,4 @@ After the upgrade or post-install routines, always clear your browser cache or p
 }
 
 main
+

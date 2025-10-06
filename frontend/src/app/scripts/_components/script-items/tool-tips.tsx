@@ -50,3 +50,4 @@ export default function Tooltips({ item }: { item: Script }) {
     </div>
   );
 }
+

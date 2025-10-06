@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: tremor021 (Slaviša Arežina)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://teamspeak.com/en/
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
@@ -54,3 +54,4 @@ rm -f ~/ts3server.tar.bz*
 $STD apt-get -y autoremove
 $STD apt-get -y autoclean
 msg_ok "Cleaned"
+

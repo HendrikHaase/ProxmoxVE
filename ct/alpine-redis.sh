@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/build.func)
+source <(curl -fsSL https://raw.githubusercontent.com/HendrikHaase/ProxmoxVE/main/misc/build.func)
 # Copyright (c) 2021-2025 community-scripts ORG
 # Author: MickLesk (CanbiZ)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/HendrikHaase/ProxmoxVE/raw/main/LICENSE
 # Source: https://redis.io/
 
 APP="Alpine-Redis"
@@ -70,3 +70,4 @@ description
 msg_ok "Completed Successfully!\n"
 echo -e "${APP} should be reachable on port 6379.
          ${BL}redis-cli -h ${IP} -p 6379${CL} \n"
+
