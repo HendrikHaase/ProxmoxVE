@@ -1,24 +1,48 @@
 {
   "name": "SQL Server 2019",
   "slug": "sqlserver2019",
-  "categories": ["Database"],
-  "date_created": "2024-01-20",
-  "description": "Microsoft SQL Server 2019 database server provides a comprehensive data platform with security, performance, and analytics.",
-  "documentation": "https://docs.microsoft.com/en-us/sql/sql-server/",
-  "logo": "https://logoeps.com/wp-content/uploads/2013/03/microsoft-sql-server-vector-logo.png",
-  "screenshot": "https://www.betaarchive.com/imageupload/2019-09/1569406142.or.88442.png",
-  "youtube": "BIvF8n5bBlY",
-  "interface": {
-    "opt": "1433",
-    "name": "default",
-    "port": 1433
-  },
-  "requirements": {
-    "root": true,
-    "privileged": true
-  },
+  "categories": [
+    8
+  ],
+  "date_created": "2025-01-20",
+  "type": "ct",
+  "updateable": true,
+  "privileged": true,
+  "interface_port": 1433,
+  "documentation": "https://learn.microsoft.com/en-us/sql/sql-server/sql-server-2019/?view=sql-server-ver15",
+  "website": "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
+  "logo": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/microsoft-sql-server.webp",
+  "config_path": "",
+  "description": "Script to automatically set up a SQL Server 2019 installation.",
+  "install_methods": [
+    {
+      "type": "default",
+      "script": "ct/sqlserver2019.sh",
+      "resources": {
+        "cpu": 1,
+        "ram": 2048,
+        "hdd": 10,
+        "os": "Ubuntu",
+        "version": "20.04"
+      }
+    }
+  ],
   "default_credentials": {
-    "username": "sa",
-    "password": "P@ssw0rd"
-  }
+    "username": null,
+    "password": null
+  },
+  "notes": [
+    {
+      "text": "If you choose not to run the installation setup, execute: `/opt/mssql/bin/mssql-conf setup` in LXC shell.",
+      "type": "info"
+    },
+    {
+      "text": "You can setup the admin account 'SA' during installation",
+      "type": "info"
+    },
+    {
+      "text": "Make sure you disable the SA account if you intend to use this in production!",
+      "type": "warning"
+    }
+  ]
 }
